@@ -1,0 +1,33 @@
+body{
+    background-color:antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titulo{
+    color: rgb(138, 2, 0);
+}
+.Menu{
+    list-style: none ;
+    padding: 5px;
+    background-color: rgb(100, 79, 134);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+.Menu li a{
+text-decoration: none;
+color: white;  
+padding: 20px;
+display: block;
+}
+.Menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.Parrafo{
+    text-align: center;
+    display: block;
+    margin-top: auto;
+}
