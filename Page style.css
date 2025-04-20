@@ -1,15 +1,18 @@
+/*Custume of the body*/
 body{
     background-color:antiquewhite;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
-
+/*Title custume*/
 .titulo{
-    color: rgb(138, 2, 0);
+    color: rgb(248, 248, 248);
 }
+/*Menu custume*/
 .Menu{
     list-style: none ;
     padding: 5px;
-    background-color: rgb(100, 79, 134);
+    background-color: rgb(31, 20, 48);
     width: 90%;
     max-width: 1000px;
     margin: auto;
@@ -23,11 +26,30 @@ display: block;
 }
 .Menu li{
     display: inline-block;
-    text-align: center;
+    
 }
-
+/*Paragraph custume*/
 .Parrafo{
-    text-align: center;
+    
     display: block;
     margin-top: auto;
+}
+/* colours for each box */
+.box00{background: lightgreen;
+
+border: solid gray;}
+.box0{background: lightgreen;
+    .picture{
+        align-items: center;
+    }
+}
+.box1{background: whitesmoke;}
+.box2{background: whitesmoke;}
+/*Tabla 1*/
+.tabla1{
+    border: 1px solid rgb(25, 8, 8);
+    border-collapse: collapse;
+    border-width: 5px;
+    border-right: 0cap;
+    border-color: black;
 }
