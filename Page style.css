@@ -28,6 +28,12 @@ display: block;
     display: inline-block;
     
 }
+/*container custume*/
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
 /*Paragraph custume*/
 .Parrafo{
     
@@ -36,20 +42,30 @@ display: block;
 }
 /* colours for each box */
 .box00{background: lightgreen;
-
-border: solid gray;}
+border: solid gray;
+padding: 10px;}
 .box0{background: lightgreen;
     .picture{
         align-items: center;
     }
 }
-.box1{background: whitesmoke;}
+.box1{background: whitesmoke;
+border: solid black;
+padding: 10px;}
 .box2{background: whitesmoke;}
+.picture{
+    border: 2px solid black;
+    display: block; /*ajusta exactamente al tamaño de la imagen*/
+    width: auto;
+    height: auto;
+}
 /*Tabla 1*/
-.tabla1{
-    border: 1px solid rgb(25, 8, 8);
+.tabla1 th, .tabla1 td{
+
+    border: 1px solid rgb(0, 0, 0);
     border-collapse: collapse;
-    border-width: 5px;
-    border-right: 0cap;
     border-color: black;
+    margin-left: 200px;
+    width: 70%;
+    border-width: 2px;
 }
