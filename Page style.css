@@ -2,70 +2,79 @@
 body{
     background-color:antiquewhite;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    
 }
 /*Title custume*/
 .titulo{
     color: rgb(248, 248, 248);
+    text-align: center;
 }
 /*Menu custume*/
 .Menu{
-    list-style: none ;
-    padding: 5px;
-    background-color: rgb(31, 20, 48);
-    width: 90%;
-    max-width: 1000px;
+    background-color: rgb(52, 35, 78);
     margin: auto;
-    
+    text-align: center;
 }
 .Menu li a{
 text-decoration: none;
-color: white;  
-padding: 20px;
-display: block;
+color: white;
+display: flex;
+padding-inline: 170px;
+
 }
 .Menu li{
-    display: inline-block;
-    
+    display: flex;
+    display: inline-flex;
 }
 /*container custume*/
 .container{
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    align-items: stretch;
+    border: 1px solid gray;
+}
+/*Box*/
+.box{
+    flex: 1;
+}
+
+
+/* colours for each box */
+.box1{background: lightgreen;
+border: solid gray;
+padding: 10px;}
+.box2{background: lightgreen;
+    display: flex;
+    align-items: stretch;
+    padding-left: 35%;
+    }
+.box3{
+    background-color: aliceblue;
+}
+.box4{background: whitesmoke;
+border: solid black;
+padding: 10px;}
+.box5{background: whitesmoke;
+    align-self: center;
+    border:solid black ;}
+.picture{
+    border: 2px solid black;
+    display: flex; /*ajusta exactamente al tamaño de la imagen*/
+    width: auto;
+    height: auto;
+    padding-left: 30%;
 }
 /*Paragraph custume*/
 .Parrafo{
-    
+    text-align: center;
     display: block;
     margin-top: auto;
 }
-/* colours for each box */
-.box00{background: lightgreen;
-border: solid gray;
-padding: 10px;}
-.box0{background: lightgreen;
-    .picture{
-        align-items: center;
-    }
-}
-.box1{background: whitesmoke;
-border: solid black;
-padding: 10px;}
-.box2{background: whitesmoke;}
-.picture{
-    border: 2px solid black;
-    display: block; /*ajusta exactamente al tamaño de la imagen*/
-    width: auto;
-    height: auto;
-}
 /*Tabla 1*/
 .tabla1 th, .tabla1 td{
-
     border: 1px solid rgb(0, 0, 0);
     border-collapse: collapse;
     border-color: black;
-    margin-left: 200px;
-    width: 70%;
+    min-width: 40%;
     border-width: 2px;
 }
